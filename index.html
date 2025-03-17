@@ -3,48 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Sindu Aji</title>
+    <title>Portofolio - Sindu Aji</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
         <nav>
+            <h1>Sindu Aji</h1>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li><button id="toggleMode">🌙 Mode Gelap</button></li>
             </ul>
         </nav>
     </header>
-    <section id="home" class="hero">
+
+    <section id="hero">
         <div class="hero-content">
-            <img src="profile.jpg" alt="Foto Sindu Aji" class="profile-img">
-            <h1>I Am Sindu Aji</h1>
-            <p>Siswa SMK TJKT yang tertarik dengan DevOps dan desain UI/UX.</p>
-            <a href="#contact" class="btn">Let's Talk</a>
+            <h2>Halo, Saya Sindu Aji</h2>
+            <p>Seorang calon DevOps Engineer yang tertarik dengan dunia teknologi</p>
+            <a href="#contact" class="btn">Hubungi Saya</a>
         </div>
     </section>
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>Saya adalah seorang siswa SMK TJKT yang memiliki ketertarikan dalam dunia DevOps dan UI/UX Design.</p>
+
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah seorang pelajar SMK TJKT yang ingin mendalami bidang DevOps serta UI/UX Design.</p>
     </section>
-    <section id="skills" class="skills">
-        <h2>Skills</h2>
-        <div class="skills-icons">
-            <img src="html-icon.png" alt="HTML">
-            <img src="css-icon.png" alt="CSS">
-            <img src="js-icon.png" alt="JavaScript">
-            <img src="linux-icon.png" alt="Linux">
+
+    <section id="skills">
+        <h2>Keahlian</h2>
+        <div class="skill-container">
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">Linux</div>
+            <div class="skill-item">Docker</div>
         </div>
     </section>
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <div class="social-links">
-            <a href="https://www.instagram.com/cceasenn" target="_blank">Instagram</a>
-            <a href="https://www.facebook.com/share/1AEjWAoKD2/" target="_blank">Facebook</a>
+
+    <section id="projects">
+        <h2>Proyek Saya</h2>
+        <div class="project-container">
+            <div class="project-item">
+                <h3>Shopora E-commerce</h3>
+                <p>Platform e-commerce yang sedang saya kembangkan.</p>
+            </div>
+            <div class="project-item">
+                <h3>UI/UX Kalender 2025</h3>
+                <p>Desain kalender dengan fitur reminder pembersihan komputer.</p>
+            </div>
         </div>
     </section>
+
+    <section id="contact">
+        <h2>Kontak Saya</h2>
+        <p>Email: sinduaji@example.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sindu Aji. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

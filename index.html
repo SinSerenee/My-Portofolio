@@ -8,6 +8,43 @@
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <!-- Opsional: Tambahkan library scroll reveal misalnya AOS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <meta name="description" content="Portofolio Sindu Aji - DevOps & UI/UX Designer">
+  <meta name="keywords" content="Portofolio, DevOps, UI/UX, Sindu Aji, SMK TJKT">
+  <meta name="author" content="Sindu Aji">
+  <style>
+    /* Tombol switch bahasa sederhana */
+    #lang-switch { margin-left: 10px; cursor: pointer; }
+    /* Form kontak sederhana */
+    .contact-form {
+      margin-top: 1em;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+      max-width: 400px;
+      align-items: center; /* tambahkan ini agar semua elemen di tengah */
+    }
+    .contact-form input, .contact-form textarea {
+      padding: 0.5em;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      width: 100%; /* agar input tetap lebar penuh */
+    }
+    .contact-form button {
+      padding: 0.5em;
+      border-radius: 4px;
+      border: none;
+      background: #007bff;
+      color: #fff;
+      cursor: pointer;
+      width: 50%; /* tombol lebih lebar dan di tengah */
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    section {
+      scroll-margin-top: 80px; /* ganti 80px sesuai tinggi header */
+    }
+  </style>
 </head>
 <body>
 
@@ -18,7 +55,6 @@
       <a href="#about">Tentang</a>
       <a href="#skills">Keahlian</a>
       <a href="#projects">Proyek</a>
-      <a href="#testimonials">Testimoni</a>
       <a href="#contact">Kontak</a>
       <button id="toggle-mode">🌙</button>
     </nav>
@@ -54,38 +90,22 @@
     <h2>Proyek Saya</h2>
     <div class="projects-container">
       <div class="project-card">
-        <img src="project1.jpg" alt="Proyek 1">
+        <img src="project1.jpg" alt="Tampilan Proyek 1">
         <h3>Proyek 1</h3>
         <p>Deskripsi singkat tentang proyek ini.</p>
+        <a href="https://github.com/SinSerenee" target="_blank">Lihat di GitHub</a>
       </div>
       <div class="project-card">
-        <img src="project2.jpg" alt="Proyek 2">
+        <img src="project2.jpg" alt="Tampilan Proyek 2">
         <h3>Proyek 2</h3>
         <p>Deskripsi singkat tentang proyek ini.</p>
+        <a href="https://github.com/SinSerenee" target="_blank">Lihat di GitHub</a>
       </div>
       <div class="project-card">
-        <img src="project3.jpg" alt="Proyek 3">
+        <img src="project3.jpg" alt="Tampilan Proyek 3">
         <h3>Proyek 3</h3>
         <p>Deskripsi singkat tentang proyek ini.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials -->
-  <section id="testimonials" data-aos="fade-up">
-    <h2>Testimoni</h2>
-    <div class="testimonial-slider">
-      <div class="testimonial">
-        <p>"Kerja yang luar biasa, sangat profesional dan berdedikasi!"</p>
-        <h4>- Klien A</h4>
-      </div>
-      <div class="testimonial">
-        <p>"Pendekatan inovatif dan desain yang menarik."</p>
-        <h4>- Klien B</h4>
-      </div>
-      <div class="testimonial">
-        <p>"Sangat memuaskan dalam hal pengembangan teknologi dan UI/UX."</p>
-        <h4>- Klien C</h4>
+        <a href="https://github.com/SinSerenee" target="_blank">Lihat di GitHub</a>
       </div>
     </div>
   </section>
